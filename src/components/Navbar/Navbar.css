@@ -1,0 +1,35 @@
+.navbar-container {
+  width: 614px;
+  height: 62px;
+  mart: 113px;
+  left: 975px;
+  gap: 0px;
+  border-radius: 23px;
+  background-color: #181818;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+.navbar-button {
+  width: 195px;
+  height: 49px;
+  padding: 10px 24px 10px 24px;
+  gap: 10px;
+  border-radius: 16px;
+  background: transparent;
+  color: #a3adb2;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 16.12px;
+  text-align: center;
+  border: none;
+}
+
+.navbar-button:hover {
+  background: gray;
+}

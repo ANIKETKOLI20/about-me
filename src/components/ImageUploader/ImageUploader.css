@@ -1,0 +1,83 @@
+.image-uploader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  width: 600px; /* Adjust width to fit more images */
+  margin: 0 auto;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px; /* Space between controls and images */
+}
+
+.gallery-button {
+  width: 149px;
+  height: 62px;
+  top: 37px;
+  left: 20px;
+  gap: 0px;
+  border-radius: 20px;
+  background: #171717;
+  color: white;
+  border: none;
+}
+
+.add-image-button {
+  width: 129px;
+  height: 52px;
+  top: 37px;
+  left: 20px;
+  gap: 0px;
+  border-radius: 20px;
+  background: gray;
+  color: white;
+  border: none;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+
+.slider-buttons {
+  display: flex;
+}
+
+.slider-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.image-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.preview-image {
+  width: 150px; /* Size of each image */
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  transition: opacity 0.3s ease;
+}
+
+.nav-button:disabled {
+  opacity: 0.3; /* Disable button appearance */
+  cursor: not-allowed;
+}

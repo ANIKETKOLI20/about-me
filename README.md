@@ -12,12 +12,11 @@ This is a simple React component that allows users to upload multiple images dir
 
 ## **Preview**
 
-![Component Preview](./screenshot.png)
 
 ## **Installation and Setup**
 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/your-username/react-image-uploader.git
-   cd react-image-uploader
+  GitHub Link :https://github.com/ANIKETKOLI20/about-me
+Deployed Link :https://about-me-taupe-kappa.vercel.app/
